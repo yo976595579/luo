@@ -1,0 +1,79 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+body{
+	background: url(imgs/bg.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.bos .link{
+	width:200px;
+	height:300px;
+	margin: 120px 120px;
+	float: left;
+}
+.bos .link .box{
+      width: 200px;
+      height: 200px;
+      background: url(imgs/map.png) no-repeat center;
+ }
+.bos .icon{
+	display: inline-block;
+	width: 200px;
+	height: 195px;
+}
+.bos .link .bus{
+      width: 200px;
+      height: 200px;
+      background: url(imgs/plan.png) no-repeat center;
+}   
+.bos .link .test{
+      width: 200px;
+      height: 200px;
+      background: url(imgs/movie.png) no-repeat center;   
+}  
+.box:hover{
+        transform: rotate(360deg) scale(1.2);
+        transition: all 1s ease;
+} 
+.bus:hover{
+        transform: rotate(360deg) scale(1.2);
+        transition: all 1s ease;
+} 
+.test:hover{
+        transform: rotate(360deg) scale(1.2);
+        transition: all 1s ease;
+} 
+/*.bos .link .ison:hover{
+       transform: rotate(360deg) scale(1.2);
+       -ms-transform:rotate(360deg) scale(1.2);
+       -webkit-transform:rotate(360deg) scale(1.2);
+}*/
+.link .icon{
+	   border: 1px solid;
+       display: inline-block;
+       width: 100%;
+       height: 195px;
+       transition: all 0.3s linear; 
+}
+.button{
+     display: block;
+     width: 166px;
+     height: 50px;
+     line-height: 50px;
+     border: 2px solid rgba(255,255,255,0.5);
+     padding-left:25px;
+     margin: 0 auto;
+     color: #F8F8FF;
+     font-size: 25px;
+     font-weight: 520;
+     background: url(imgs/right_arrow.png) no-repeat right;
+     transition: all 0.4s ease;
+}
+.button:hover{
+     border: 2px solid rgba(255,255,255,1);
+     background-position: 165px center;
+}
